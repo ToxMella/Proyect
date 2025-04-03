@@ -1,0 +1,90 @@
+@import url(/Proyecto/enemigos/automatas.html);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+        background-image: url(/Proyecto/enemigos/img.enemy/Automaton_Flag.webp);
+        margin: 0;
+        min-height: 100vh;
+        background-size: auto;
+        font-family: Arial, Helvetica, sans-serif;
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin: 5%;
+        line-height: 1.6;
+}    
+
+main {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(rgba(107, 9, 9, 0.884))
+}
+
+header {
+    text-align: center;
+    color: rgb(184, 3, 3);
+    padding: 20px 0;
+    border-radius:  8px 8px 0 0;
+    background-image: url(/Proyecto/enemigos/img.enemy/Automaton_Galactic_Map.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header figure img{
+    border-radius: 50%;
+    border: 5px solid #b91f1f;
+    box-shadow: 0 0 10px;
+   }
+   
+header h1{
+    font-size: 2em;
+    margin-top: 10px;
+}
+   
+ header h2{
+    font-size: 1.2em;
+    opacity: 0.7;
+ }
+
+.container {
+    background-color: rgba(131, 14, 14, 0.884);
+    width: 80%;
+    position: relative;
+    z-index: 1;
+}
+
+.contenedor_foto_perfil {
+    width: 280%;
+    height: 280%;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    border: 7px solid #b91f1f;
+    margin: 5%;
+    box-shadow: 0 0 20px rgb(14, 13, 13);
+}
+
+.contenedor_foto_perfil img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.cabecera {
+    position: relative;
+}
+
+.nombre_puesto {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 1%;
+    text-shadow: #b91f1f;
+}
