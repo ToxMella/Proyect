@@ -1,5 +1,0 @@
-file-icons
-live preview
-
-ctrl+k+c = vuelve comentado lo seleccionado
-ctrl+k+u = le quita lo comentado
